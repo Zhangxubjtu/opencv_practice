@@ -6,7 +6,7 @@ using namespace cv;
 
 int main(){
     cout << "当前OpenCV版本为" << CV_VERSION << endl;
-    Mat img = imread("C:\\Users\\zx199\\Pictures\\girl.jpg");
+    Mat img = imread("D:\\Code\\Data\\RGB\\lena.png");
     cout<<img.size<<endl;
     namedWindow("img", WINDOW_NORMAL);
     imshow("img", img);
